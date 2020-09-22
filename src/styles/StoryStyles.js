@@ -40,6 +40,14 @@ export  const StoryHeading = styled.h1`
     font-size: 70px;
 `;
 
+export  const StoryError = styled.h1`
+    color: red;
+    background: pink;
+    text-align: center;
+    padding: 1rem 0;
+    display: none;
+`;
+
 export  const StoryTitle = styled.h1`
     margin-bottom: 5px;
     font-size: 30px;

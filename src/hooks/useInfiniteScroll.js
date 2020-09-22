@@ -30,6 +30,5 @@ export const useInfiniteScroll = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     });
 
-    console.log("Scroll Count: ", count);
     return { count };
 };
